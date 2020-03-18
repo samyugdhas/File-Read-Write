@@ -1,8 +1,8 @@
 # File-Read-Write
 
-FILE-OPEN:
+# FILE-OPEN:
 
-Syntax:
+# Syntax:
 
 int open (const char* Path, int flags [, int mode ]); 
 
@@ -23,9 +23,10 @@ O_CREAT: create file if it doesn’t exist
 O_EXCL: prevent creation if it already exists
 
 
-FILE-READ:
 
-Syntax:
+# FILE-READ:
+
+# Syntax:
 
 size_t read (int fd, void* buf, size_t cnt);  
 
@@ -38,9 +39,10 @@ buf: buffer to read data from
 cnt: length of buffer
 
 
-FILE-WRITE:
 
-Syntax:
+# FILE-WRITE:
+
+# Syntax:
 
 size_t write (int fd, void* buf, size_t cnt); 
 
@@ -53,9 +55,10 @@ buf: buffer to write data to
 cnt: length of 
 
 
-FILE-CLOSE:
 
-Syntax:
+# FILE-CLOSE:
+
+# Syntax:
 
 int close(int fd); 
 
