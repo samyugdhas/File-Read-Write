@@ -8,11 +8,17 @@ int open (const char* Path, int flags [, int mode ]);
 Parameters
 
 Path : path to file which you want to use
+
 flags : 
+
 O_RDONLY: read only
+
 O_WRONLY: write only
+
 O_RDWR: read and write
+
 O_CREAT: create file if it doesn’t exist
+
 O_EXCL: prevent creation if it already exists
 
 FILE-READ:
